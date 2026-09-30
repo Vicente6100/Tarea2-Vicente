@@ -40,22 +40,22 @@ Funcionalidades :
 
 
 Funcionando correctamente:
--Cargar archivo de canciones
--Buscar canciones por género
--Buscar canciones por artista 
--Buscar canciones por tempo
+-Cargar archivo de canciones 
+-Buscar canciones por género 
+-Buscar canciones por artista  
+-Buscar canciones por tempo 
 
 Problemas conocidos:
--En caso de no encontrar un artista o género no se diferencia entre inexistencia del buscado o falta de carga del archivo
--Funciona solo para columnas estandarizadas del archivo
--La búsqueda por artista solo funciona al escribir el nombre con mayúsculas al incio
-
+-En caso de no encontrar un artista o género no se diferencia entre inexistencia del buscado o falta de carga del archivo 
+-Funciona solo para columnas estandarizadas del archivo 
+-La búsqueda por artista solo funciona al escribir el nombre con mayúsculas al incio 
+ 
 A mejorar :
 
-Eficiencia al momento de cargar el archivo csv
-Especificación de errores (problema #1)
-Globalización de registros de canciones (problema #2)
-Hacer que la búsqueda por artista no discrimine entre mayusc. y minusc. 
+Eficiencia al momento de cargar el archivo csv 
+Especificación de errores (problema #1) 
+Globalización de registros de canciones (problema #2) 
+Hacer que la búsqueda por artista no discrimine entre mayusc. y minusc. (problema #3)  
 
 Ejemplo de uso
 
@@ -67,11 +67,11 @@ Paso 2: cargar el csv
 ```
 Opción seleccionada: 1) Cargar Canciones
 ```
--Buscar el archivo .csv en la carpeta data
--Apretar click derecho
--Seleccionar "Copy file path"
--Apretar click derecho en la consola y seleccionar "paste"
--Apretar Enter
+-Buscar el archivo .csv en la carpeta data 
+-Apretar click derecho 
+-Seleccionar "Copy file path" 
+-Apretar click derecho en la consola y seleccionar "paste" 
+-Apretar Enter 
 
 El programa carga todas las canciones y está listo para realizar las siguientes funciones
 
