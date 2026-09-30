@@ -23,12 +23,12 @@ Pasos para compilar y ejecutar:
     - Selecciona `+ > Import an existing proyect > Zip file` y elige la carpeta donde se encuentra el proyecto.
     - Carga el archivo y selecciona `View app ´
 3. Compila el código
-    - Abrir la librería desde arriba a la derecha (Ctrl + Shift + L en su defecto)
-    - Seleccionar 'Files'
-    - Arrastrar el archivo .csv hasta la carpeta 'data'
-    - Abre el archivo principal (`tarea2.c`).
-    - Selecciona `+ > Shell ´ para abrir la terminal  integrada
-    - En la terminal, compila el programa con el siguiente comando (ajusta el nombre si el archivo principal tiene otro nombre):
+    - Abrir la librería desde arriba a la derecha (Ctrl + Shift + L en su defecto)  
+    - Seleccionar 'Files' 
+    - Arrastrar el archivo .csv hasta la carpeta 'data' 
+    - Abre el archivo principal (`tarea2.c`). 
+    - Selecciona `+ > Shell ´ para abrir la terminal  integrada 
+    - En la terminal, compila el programa con el siguiente comando (ajusta el nombre si el archivo principal tiene otro nombre): 
 
 			gcc tdas/*.c tarea2.c -Wno-unused-result -o tarea2
 
